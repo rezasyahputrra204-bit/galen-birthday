@@ -1,0 +1,1 @@
+const cd=document.getElementById("cd"),t=new Date("2026-08-08T13:00:00");setInterval(()=>{let d=t-new Date();let s=Math.max(0,Math.floor(d/1000)),D=Math.floor(s/86400);s%=86400;let H=Math.floor(s/3600);s%=3600;let M=Math.floor(s/60),S=s%60;cd.innerHTML=`<h2>${D} Hari ${H} Jam ${M} Menit ${S} Detik</h2>`},1000);
